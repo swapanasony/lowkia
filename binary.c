@@ -1,12 +1,12 @@
 #include<stdio.h>
 void main()
 {
-char a[10],i,count=0;
+char n[10],i,count=0;
 printf("enter the number");
-scanf("%s",&a);
+scanf("%s",&n);
 for(i=0;n[i]!='\0';i++)
 {
-if(!(a[i]==(0||1)))
+if(!(n[i]==(0||1)))
 {
 count++;
 }
