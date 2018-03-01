@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main(void)
 {
-	char a[500]="sunday",b[500],c[500]="saturday";
+	char x[500]="sunday",y[500],z[500]="saturday";
 	int i,c3=0,c1,c2=0;
 	printf("\nEnter the day..");
-	scanf("%s",&b);
-	c1=strlen(b);
-	for(i=0;b[i]!='\0';i++)
+	scanf("%s",&y);
+	c1=strlen(y);
+	for(i=0;y[i]!='\0';i++)
 	{
-	        if(a[i]==b[i])
+	        if(x[i]==y[i])
 		{
 			if(i==0)
 			{
@@ -20,7 +20,7 @@ int main(void)
 				c3++;
 			}
 		}
-		else if(c[i]==b[i])
+		else if(z[i]==y[i])
 		{
 			c2++;
 		}
