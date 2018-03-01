@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(void)
 {
-	char a[300]="sunday",b[300],c[300]="saturday";
+	char a[500]="sunday",b[500],c[500]="saturday";
 	int i,c3=0,c1,c2=0;
 	printf("\nEnter the day..");
 	scanf("%s",&b);
