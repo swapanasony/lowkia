@@ -18,7 +18,7 @@ int main(void)
 		j++;
 	}
 	}
-		printf("\nThe string %s with removed vowel and reversed is...",str);
+		printf("\nThe string %s with removed vowel and reve is...",str);
 	for(i=j-1;i>=0;i--)
 	{
 		printf("%c",st[i]);
